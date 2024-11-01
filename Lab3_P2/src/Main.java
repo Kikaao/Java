@@ -10,9 +10,11 @@ public class Main {
 //        int year = read.nextInt();
 //
 //        if (year%4==0){
-//            if (year%100==0){
+//            if (year%400==0){
 //                System.out.println("It's a leap year.");
-//            }else
+//            }else if (year%100==0)
+//                System.out.println("It's not a leap year.");
+//            else 
 //                System.out.println("It's a leap year.");
 //        }else
 //            System.out.println("It's not a leap year.");
